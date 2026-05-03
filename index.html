@@ -186,10 +186,11 @@
         <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
             <div class="md:w-1/2 mb-12 md:mb-0">
                 <h1 class="text-4xl md:text-6xl font-bold mb-4">Hi, I'm <span class="gradient-text">Niveditha K</span></h1>
-                <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-slate-300">Frontend Developer</h2>
+                <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-slate-300">
+                    <span id="typed-role"></span><span class="animate-pulse text-primary">|</span>
+                </h2>
                 <p class="text-lg mb-8 text-slate-400 max-w-lg">
-                    I build exceptional digital experiences that are fast, accessible, and visually appealing. 
-                    Let's create something amazing together.
+                    I craft pixel-perfect, responsive UIs with React and Tailwind CSS — turning designs into fast, accessible, and delightful web experiences.
                 </p>
                 <div class="flex space-x-4">
                     <a href="#contact" class="px-6 py-3 rounded-full btn-primary font-medium">Hire Me</a>
@@ -236,9 +237,15 @@
                 <div class="md:w-2/3 md:pl-12">
                     <h3 class="text-2xl font-bold mb-6">Who am I?</h3>
                     <p class="text-slate-400 mb-6">
-                        I'm a passionate Frontend developer with over 2+ years of experience creating modern web applications. 
-                        I specialize in JavaScript ecosystems including React, Node.js, and modern CSS frameworks.
+                        I'm a passionate Frontend Developer with 2+ years of experience building modern, responsive web applications. I specialize in React.js, Tailwind CSS, and JavaScript — with a strong eye for UI/UX, performance optimization, and clean component architecture.
                     </p>
+                    <div class="flex flex-wrap gap-3 mb-6">
+                        <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-primary border border-primary/30">⚡ React.js</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-primary border border-primary/30">🎨 Tailwind CSS</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-primary border border-primary/30">📱 Responsive Design</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-primary border border-primary/30">🔗 REST APIs</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-primary border border-primary/30">✨ UI/UX</span>
+                    </div>
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                         <div>
@@ -253,7 +260,7 @@
                     </div>
                     
                     <div class="flex space-x-4">
-                        <a href="#" class="px-6 py-3 rounded-full btn-primary font-medium">Download CV</a>
+                        <a href="Niveditha_Resume.pdf" download="Niveditha_Resume.pdf" class="px-6 py-3 rounded-full btn-primary font-medium">Download CV</a>
                         <a href="#contact" class="px-6 py-3 rounded-full border border-primary text-primary font-medium hover:bg-primary/10 transition">Contact Me</a>
                     </div>
                 </div>
@@ -266,42 +273,78 @@
                 <div class="relative max-w-3xl mx-auto">
                     <div class="absolute left-1/2 h-full w-0.5 bg-slate-700 transform -translate-x-1/2"></div>
                     
+                    <!-- Entry 1: DPP -->
                     <div class="mb-8 flex justify-between items-center w-full timeline-item">
                         <div class="order-1 w-5/12"></div>
                         <div class="order-1 w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg">
-                            <h4 class="text-lg font-bold mb-2">Frontend Developer</h4>
-                            <p class="text-sm text-slate-400 mb-2">Crest Aerospace Technologies. • Jul2025 - Present</p>
-                            <p class="text-slate-300">
-                                Developed responsive, role-based UI screens using React.js and integrated REST APIs for 
-                                real-time product traceability in EU-regulated supply chains. Collaborated with backend 
-                                engineers on secure routing, authorization, and performance improvements.
-                            </p>
+                            <h4 class="text-lg font-bold mb-1">Frontend Developer</h4>
+                            <p class="text-sm text-slate-400 mb-3">Crest Aerospace Technologies &bull; Jul 2025 &ndash; Present</p>
+                            <div class="border-l-2 border-primary/40 pl-3">
+                                <p class="text-xs font-semibold text-primary mb-1">&#128230; Digital Product Passport (DPP)</p>
+                                <p class="text-xs text-slate-400 mb-2">Supply-chain traceability platform tracking product lifecycle from manufacturing &rarr; distribution &rarr; delivery.</p>
+                                <ul class="text-xs text-slate-300 space-y-1 mb-2">
+                                    <li>&bull; Role-based dashboards (Admin, Vendor, Inspector, etc.)</li>
+                                    <li>&bull; Dynamic UI rendering based on permissions</li>
+                                    <li>&bull; Data-heavy tables with filtering &amp; sorting</li>
+                                    <li>&bull; Real-time updates using REST APIs</li>
+                                    <li>&bull; Secure OTP/JWT UI flows</li>
+                                </ul>
+                                <div class="flex flex-wrap gap-1">
+                                    <span class="px-2 py-0.5 bg-slate-700 rounded text-xs">React.js</span>
+                                    <span class="px-2 py-0.5 bg-slate-700 rounded text-xs">Tailwind CSS</span>
+                                    <span class="px-2 py-0.5 bg-slate-700 rounded text-xs">REST APIs</span>
+                                    <span class="px-2 py-0.5 bg-slate-700 rounded text-xs">Context API</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    
+
+                    <!-- Entry 2: ScoreBoost -->
                     <div class="mb-8 flex justify-between items-center w-full timeline-item">
                         <div class="order-1 w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg">
-                            <h4 class="text-lg font-bold mb-2">Frontend Developer</h4>
-                            <p class="text-sm text-slate-400 mb-2">Crest Aerospace Technologies • Jan2024 - Jun2025</p>
-                            <p class="text-slate-300">
-                                Built a scalable frontend with React.js + Tailwind CSS, enabling interactive learning 
-                                dashboards, workflows, and seamless API-driven data access. Enhanced UX with responsive 
-                                design, validation, and debugging optimizations. 
-                            </p>
+                            <h4 class="text-lg font-bold mb-1">Frontend Developer</h4>
+                            <p class="text-sm text-slate-400 mb-3">Crest Aerospace Technologies &bull; Jan 2024 &ndash; Jun 2025</p>
+                            <div class="border-l-2 border-primary/40 pl-3">
+                                <p class="text-xs font-semibold text-primary mb-1">&#127919; ScoreBoost</p>
+                                <p class="text-xs text-slate-400 mb-2">SaaS-based exam &amp; analytics platform for students and educators.</p>
+                                <ul class="text-xs text-slate-300 space-y-1 mb-2">
+                                    <li>&bull; Real-time exam interface with synced timers</li>
+                                    <li>&bull; Interactive dashboards for scores &amp; performance trends</li>
+                                    <li>&bull; Smooth state management for exam flow</li>
+                                    <li>&bull; Reusable UI components for scalability</li>
+                                </ul>
+                                <div class="flex flex-wrap gap-1">
+                                    <span class="px-2 py-0.5 bg-slate-700 rounded text-xs">React.js</span>
+                                    <span class="px-2 py-0.5 bg-slate-700 rounded text-xs">Tailwind CSS</span>
+                                    <span class="px-2 py-0.5 bg-slate-700 rounded text-xs">REST APIs</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="order-1 w-5/12"></div>
                     </div>
-                    
+
+                    <!-- Entry 3: EducateTrade -->
                     <div class="mb-8 flex justify-between items-center w-full timeline-item">
                         <div class="order-1 w-5/12"></div>
                         <div class="order-1 w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg">
-                            <h4 class="text-lg font-bold mb-2">Automation testing</h4>
-                            <p class="text-sm text-slate-400 mb-2">Crest Aerospace Technologies • Jul2023 - Dec2023</p>
-                            <p class="text-slate-300">
-                                Created Python-based automated test scripts to validate safety logic and operational 
-                                events in a vacuum-driven industrial system. Improved reliability and reduced manual 
-                                testing through structured reporting and expanded test coverage.
-                            </p>
+                            <h4 class="text-lg font-bold mb-1">Frontend Developer</h4>
+                            <p class="text-sm text-slate-400 mb-3">Crest Aerospace Technologies &bull; Jul 2023 &ndash; Dec 2023</p>
+                            <div class="border-l-2 border-secondary/40 pl-3">
+                                <p class="text-xs font-semibold text-purple-400 mb-1">&#128200; EducateTrade</p>
+                                <p class="text-xs text-slate-400 mb-2">Trading simulation platform for learning with real-time data.</p>
+                                <ul class="text-xs text-slate-300 space-y-1 mb-2">
+                                    <li>&bull; Interactive trading dashboard with charts</li>
+                                    <li>&bull; Real-time data visualization</li>
+                                    <li>&bull; Simulation UI for buy/sell actions</li>
+                                    <li>&bull; Performance optimization for live data</li>
+                                </ul>
+                                <div class="flex flex-wrap gap-1">
+                                    <span class="px-2 py-0.5 bg-slate-700 rounded text-xs">React.js</span>
+                                    <span class="px-2 py-0.5 bg-slate-700 rounded text-xs">JavaScript</span>
+                                    <span class="px-2 py-0.5 bg-slate-700 rounded text-xs">Chart.js</span>
+                                    <span class="px-2 py-0.5 bg-slate-700 rounded text-xs">APIs</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -354,11 +397,11 @@
                         
                         <div>
                             <div class="flex justify-between mb-2">
-                                <span class="font-medium">Node.js</span>
-                                <span>80%</span>
+                                <span class="font-medium">Tailwind CSS</span>
+                                <span>90%</span>
                             </div>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
+                                <div class="skill-progress" style="width: 90%"></div>
                             </div>
                         </div>
                     </div>
@@ -433,16 +476,8 @@
                         <span>React</span>
                     </div>
                     <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
-                        <i class="fab fa-node-js text-4xl text-green-500 mb-2"></i>
-                        <span>Node.js</span>
-                    </div>
-                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
-                        <i class="fas fa-database text-4xl text-blue-300 mb-2"></i>
-                        <span>MongoDB</span>
-                    </div>
-                    <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
-                        <i class="fab fa-git-alt text-4xl text-orange-600 mb-2"></i>
-                        <span>Git</span>
+                        <i class="fab fa-figma text-4xl text-pink-400 mb-2"></i>
+                        <span>Figma</span>
                     </div>
                     <div class="flex flex-col items-center p-6 bg-slate-800 rounded-lg card-hover">
                         <i class="fab fa-npm text-4xl text-red-500 mb-2"></i>
@@ -465,54 +500,100 @@
             <div class="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
         </div>
 
-        <!-- Summary Card -->
-        <div class="project-card rounded-2xl p-8 shadow-xl">
-            <h3 class="text-2xl font-bold mb-6 text-primary">Project Summary</h3>
-
-            <div class="space-y-8">
-<!-- Improved Project Cards Section (Replace inside #projects or use as component) -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="space-y-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
   <!-- DPP Card -->
-  <div class="project-card rounded-2xl p-6 card-hover cursor-pointer">
-    <h4 class="text-xl font-semibold text-primary mb-2">Digital Product Passport</h4>
-    <p class="text-slate-400 text-sm leading-relaxed">
-      Supply-chain transparency platform supporting EU sustainability compliance—featuring
-      role-based dashboards, secure routing, and real-time product lifecycle tracking.
+  <div class="project-card rounded-2xl p-6 card-hover">
+    <div class="flex items-center justify-between mb-3">
+      <h4 class="text-xl font-semibold text-primary">Digital Product Passport</h4>
+      <span class="text-xs px-2 py-1 bg-primary/10 text-primary rounded-full border border-primary/20">Work Project</span>
+    </div>
+    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+      Supply-chain traceability platform tracking product lifecycle from manufacturing to delivery, with role-based access for 5+ user types.
     </p>
-    <div class="mt-4 flex items-center justify-between text-xs text-slate-500">
-      <span>React • Tailwind</span>
+    <ul class="text-slate-300 text-sm space-y-1 mb-4">
+      <li>📊 Interactive dashboards with live product status</li>
+      <li>🔐 Role-based UI rendering (Admin, Vendor, Inspector…)</li>
+      <li>⚡ Optimized data tables with filtering &amp; sorting</li>
+      <li>📱 Fully responsive, mobile-first design</li>
+    </ul>
+    <div class="flex flex-wrap gap-2 text-xs">
+      <span class="px-2 py-1 bg-slate-700 rounded">React.js</span>
+      <span class="px-2 py-1 bg-slate-700 rounded">Tailwind CSS</span>
+      <span class="px-2 py-1 bg-slate-700 rounded">REST APIs</span>
+      <span class="px-2 py-1 bg-slate-700 rounded">Context API</span>
+    </div>
+  </div>
+
+  <!-- ScoreBoost Card -->
+  <div class="project-card rounded-2xl p-6 card-hover">
+    <div class="flex items-center justify-between mb-3">
+      <h4 class="text-xl font-semibold text-primary">ScoreBoost</h4>
+      <span class="text-xs px-2 py-1 bg-primary/10 text-primary rounded-full border border-primary/20">Work Project</span>
+    </div>
+    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+      SaaS-based exam &amp; analytics platform for students and educators with real-time exam interfaces and performance dashboards.
+    </p>
+    <ul class="text-slate-300 text-sm space-y-1 mb-4">
+      <li>⏱ Real-time exam interface with synced timers</li>
+      <li>📈 Interactive dashboards for scores &amp; trends</li>
+      <li>🔄 Smooth state management for exam flow</li>
+      <li>🧩 Reusable UI components for scalability</li>
+    </ul>
+    <div class="flex flex-wrap gap-2 text-xs">
+      <span class="px-2 py-1 bg-slate-700 rounded">React.js</span>
+      <span class="px-2 py-1 bg-slate-700 rounded">Tailwind CSS</span>
+      <span class="px-2 py-1 bg-slate-700 rounded">REST APIs</span>
     </div>
   </div>
 
   <!-- EducateTrade Card -->
-  <div class="project-card rounded-2xl p-6 card-hover cursor-pointer">
-    <h4 class="text-xl font-semibold text-primary mb-2">EducateTrade Platform</h4>
-    <p class="text-slate-400 text-sm leading-relaxed">
-      Trading education app for beginners with interactive dashboards, simulated
-      buy/sell actions, and guided learning workflows to simplify market concepts.
+  <div class="project-card rounded-2xl p-6 card-hover">
+    <div class="flex items-center justify-between mb-3">
+      <h4 class="text-xl font-semibold text-primary">EducateTrade</h4>
+      <span class="text-xs px-2 py-1 bg-secondary/10 text-purple-400 rounded-full border border-secondary/20">Personal Project</span>
+    </div>
+    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+      Trading simulation platform helping users learn trading with real-time data, interactive charts, and buy/sell simulations.
     </p>
-    <div class="mt-4 flex items-center justify-between text-xs text-slate-500">
-      <span>React • Axios</span>
+    <ul class="text-slate-300 text-sm space-y-1 mb-4">
+      <li>📈 Real-time stock/trading charts</li>
+      <li>🎯 Interactive buy/sell simulations</li>
+      <li>⚡ Optimized rendering for fast live updates</li>
+      <li>📊 Data visualization for performance trends</li>
+    </ul>
+    <div class="flex flex-wrap gap-2 text-xs">
+      <span class="px-2 py-1 bg-slate-700 rounded">React.js</span>
+      <span class="px-2 py-1 bg-slate-700 rounded">JavaScript</span>
+      <span class="px-2 py-1 bg-slate-700 rounded">Chart.js</span>
+      <span class="px-2 py-1 bg-slate-700 rounded">APIs</span>
     </div>
   </div>
 
-  <!-- Vacuum System Card -->
-  <div class="project-card rounded-2xl p-6 card-hover cursor-pointer">
-    <h4 class="text-xl font-semibold text-primary mb-2">Vacuum Collection System</h4>
-    <p class="text-slate-400 text-sm leading-relaxed">
-      Industrial safety automation—Python test scripts validating system events,
-      pressure states, and control logic to boost reliability.
-    </p>
-    <div class="mt-4 flex items-center justify-between text-xs text-slate-500">
-      <span>Python</span>
+  <!-- AI Travel Planner Card -->
+  <div class="project-card rounded-2xl p-6 card-hover">
+    <div class="flex items-center justify-between mb-3">
+      <h4 class="text-xl font-semibold text-primary">AI Travel Planner</h4>
+      <span class="text-xs px-2 py-1 bg-secondary/10 text-purple-400 rounded-full border border-secondary/20">Personal Project</span>
     </div>
+    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+      AI-powered travel planning web app that generates personalized itineraries, destination suggestions, and trip schedules.
+    </p>
+    <ul class="text-slate-300 text-sm space-y-1 mb-4">
+      <li>🤖 AI-generated personalized itineraries</li>
+      <li>🗺 Destination suggestions based on preferences</li>
+      <li>📅 Dynamic trip schedule builder</li>
+      <li>📱 Responsive, clean UI</li>
+    </ul>
+    <div class="flex flex-wrap gap-2 text-xs mb-4">
+      <span class="px-2 py-1 bg-slate-700 rounded">AI</span>
+      <span class="px-2 py-1 bg-slate-700 rounded">Web</span>
+    </div>
+    <a href="https://ai-travel-planner-web.onrender.com" target="_blank" class="text-sm text-primary hover:underline">Live Demo →</a>
   </div>
 
-</div>
-
-
-            </div>
+        </div>
         </div>
 
         <div class="text-center mt-12"></div>
@@ -617,7 +698,7 @@
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-6 md:mb-0">
                     <a href="#" class="text-2xl font-bold gradient-text">Portfolio</a>
-                    <p class="text-slate-400 mt-2">© 2023 Alex Carter. All rights reserved.</p>
+                    <p class="text-slate-400 mt-2">© 2026 Niveditha K. All rights reserved.</p>
                 </div>
                 
                 <div class="flex space-x-6">
@@ -642,6 +723,19 @@
     </button>
     
     <script>
+        // Typed role animation
+        const roles = ['Frontend Developer', 'React Specialist', 'UI/UX Enthusiast', 'Tailwind CSS Expert'];
+        let roleIndex = 0, charIndex = 0, isDeleting = false;
+        function typeRole() {
+            const current = roles[roleIndex];
+            const el = document.getElementById('typed-role');
+            el.textContent = isDeleting ? current.substring(0, charIndex--) : current.substring(0, charIndex++);
+            if (!isDeleting && charIndex === current.length + 1) { isDeleting = true; setTimeout(typeRole, 1500); return; }
+            if (isDeleting && charIndex === 0) { isDeleting = false; roleIndex = (roleIndex + 1) % roles.length; }
+            setTimeout(typeRole, isDeleting ? 60 : 100);
+        }
+        typeRole();
+
         // Mobile menu toggle
         const menuToggle = document.getElementById('menu-toggle');
         const mobileMenu = document.getElementById('mobile-menu');
